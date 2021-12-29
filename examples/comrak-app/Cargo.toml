@@ -1,0 +1,11 @@
+[package]
+name = "comrak-app"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "comrak-app"
+path = "app.rs"
+
+[dependencies]
+comrak = "0.12"
