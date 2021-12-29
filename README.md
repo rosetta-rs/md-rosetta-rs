@@ -4,6 +4,9 @@ This repo tries to assess Rust markdown parsing performance.
 
 We currently compare:
 - [comrak](https://crates.io/crates/comrak)
+- [mini_markdown](https://crates.io/crates/mini_markdown)
+- [minimad](https://crates.io/crates/minimad)
+- [pulldown-cmark](https://crates.io/crates/pulldown-cmark)
 
 # Results
 
