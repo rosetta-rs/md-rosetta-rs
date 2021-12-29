@@ -74,7 +74,11 @@ def main():
                 file_size = old_raw_run.get("libs", {}).get(str(manifest_path), {}).get("size", None)
 
             run_report_path = pathlib.Path(tmpdir) / f"{example_path.name}-run.json"
-            if True and app_path is not None:
+            if metadata["name"] == "mini_markdown":
+                too_slow = True
+            else:
+                too_slow = False
+            if True and app_path is not None and not too_slow:
                 md_path = pathlib.Path(__file__).parent / "third_party/xi-editor/crdt.md"
                 assert md_path.exists()
                 hyperfine_cmd = [

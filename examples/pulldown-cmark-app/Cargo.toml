@@ -1,0 +1,11 @@
+[package]
+name = "pulldown-cmark-app"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "pulldown-cmark-app"
+path = "app.rs"
+
+[dependencies]
+pulldown-cmark = "0.9.0"

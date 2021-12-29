@@ -1,0 +1,11 @@
+[package]
+name = "minimad-app"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "minimad-app"
+path = "app.rs"
+
+[dependencies]
+minimad = "0.9.0"

@@ -34,7 +34,11 @@ def main():
 
 
 def fmt_time(case, bench):
-    value = case[bench]["results"][0]["median"]
+    bench = case[bench]
+    if bench is None:
+        return "N/A"
+
+    value = bench["results"][0]["median"]
     if value < 1:
         value *= 1000
         return "{:.0f}ms".format(value)
