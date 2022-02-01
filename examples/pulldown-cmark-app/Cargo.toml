@@ -8,4 +8,4 @@ name = "pulldown-cmark-app"
 path = "app.rs"
 
 [dependencies]
-pulldown-cmark = "0.9.0"
+pulldown-cmark = "0.9.1"
