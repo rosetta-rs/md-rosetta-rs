@@ -8,4 +8,4 @@ name = "mini_markdown-app"
 path = "app.rs"
 
 [dependencies]
-mini_markdown = "0.2.6"
+mini_markdown = "0.2.7"
