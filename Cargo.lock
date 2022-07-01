@@ -332,9 +332,9 @@ checksum = "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a"
 
 [[package]]
 name = "mini_markdown"
-version = "0.3.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9706f5af06d368e8cba2e5023b79ff7689b1453b1360d1459e7ffa6a300e2f02"
+checksum = "6eeaf574ef0941b2f22de8645a8adf5717071acf88ff1c8f3fe764f744849471"
 
 [[package]]
 name = "mini_markdown-app"
