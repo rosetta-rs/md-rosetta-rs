@@ -18,6 +18,9 @@ mini_markdown | 99 KiB | 1s | N/A | ![Download count](https://img.shields.io/cra
 minimad | 20 KiB | 1s | 2ms | ![Download count](https://img.shields.io/crates/dr/minimad) | v0.9.0
 pulldown-cmark | 711 KiB | 4s | 3ms | ![Download count](https://img.shields.io/crates/dr/pulldown-cmark) | v0.9.0
 
+Suggestions:
+- Generally, `pulldown-cmark`
+
 *System: Linux 5.4.0-91-generic (x86_64) w/ `-j 8`*
 
 Notes:
