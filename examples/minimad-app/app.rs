@@ -12,7 +12,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
 }
 
 fn render(raw: &str) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
-    let text = minimad::parse_text(raw);
+    let text = minimad::parse_text(raw, minimad::Options::default());
 
     let stdout = std::io::stdout();
     let mut stdout = stdout.lock();
