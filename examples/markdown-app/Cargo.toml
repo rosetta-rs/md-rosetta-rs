@@ -1,0 +1,11 @@
+[package]
+name = "markdown-app"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "markdown-app"
+path = "app.rs"
+
+[dependencies]
+markdown = "1.0.0-alpha.7"

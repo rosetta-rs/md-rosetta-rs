@@ -6,6 +6,7 @@ We currently compare:
 - [comrak](https://crates.io/crates/comrak)
 - [minimad](https://crates.io/crates/minimad)
 - [pulldown-cmark](https://crates.io/crates/pulldown-cmark)
+- [markdown](https://crates.io/crates/markdown)
 
 Formerly, we compared:
 - [mini_markdown](https://crates.io/crates/mini_markdown): [author is unwilling to follow cargo's variant of semver](https://github.com/darakian/mini_markdown/issues/60)
