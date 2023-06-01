@@ -8,4 +8,4 @@ name = "minimad-app"
 path = "app.rs"
 
 [dependencies]
-minimad = "0.11.0"
+minimad = "0.12.0"
