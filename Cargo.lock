@@ -345,9 +345,9 @@ checksum = "8f9f08d8963a6c613f4b1a78f4f4a4dbfadf8e6545b2d72861731e4858b8b47f"
 
 [[package]]
 name = "markdown"
-version = "1.0.0-alpha.7"
+version = "1.0.0-alpha.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "98de49c677e95e00eaa74c42a0b07ea55e1e0b1ebca5b2cbc7657f288cd714eb"
+checksum = "1c45dae11dd8af468c41201ace44dbbb3b1148215ac593cb8f0967b8d8d4b66c"
 dependencies = [
  "unicode-id",
 ]
