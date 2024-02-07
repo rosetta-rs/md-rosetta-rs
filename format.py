@@ -20,12 +20,16 @@ def main():
     print("Name | Overhead (release) | Build (debug) | Parse (release) | Downloads | Version")
     print("-----|--------------------|---------------|-----------------|-----------|--------")
     for case in cases:
+        if case["name"] != "null":
+            count_link = "![Download count](https://img.shields.io/crates/dr/{})".format(case["crate"])
+        else:
+            count_link = "-"
         row = [
             case["name"],
             fmt_size(case, cases[0]),
             fmt_time(case, "build"),
             fmt_time(case, "run"),
-            "![Download count](https://img.shields.io/crates/dr/{})".format(case["crate"]),
+            count_link,
             case["version"] if case["version"] else "-",
         ]
         print(" | ".join(row))
