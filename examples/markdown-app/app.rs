@@ -4,7 +4,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let mut args = std::env::args_os();
     let _bin = args.next();
     let path = args.next().expect("no markdown path given");
-    let raw = std::fs::read_to_string(&path)?;
+    let raw = std::fs::read_to_string(path)?;
     #[cfg(debug_assertions)]
     {
         let stdout = std::io::stdout();
