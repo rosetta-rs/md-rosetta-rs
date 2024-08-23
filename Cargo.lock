@@ -206,7 +206,7 @@ dependencies = [
 
 [[package]]
 name = "comrak-app"
-version = "0.1.0"
+version = "0.0.0"
 dependencies = [
  "comrak",
 ]
@@ -435,7 +435,7 @@ dependencies = [
 
 [[package]]
 name = "markdown-app"
-version = "0.1.0"
+version = "0.0.0"
 dependencies = [
  "markdown",
 ]
@@ -457,7 +457,7 @@ dependencies = [
 
 [[package]]
 name = "minimad-app"
-version = "0.1.0"
+version = "0.0.0"
 dependencies = [
  "minimad",
 ]
@@ -474,7 +474,7 @@ dependencies = [
 
 [[package]]
 name = "null-app"
-version = "0.1.0"
+version = "0.0.0"
 
 [[package]]
 name = "once_cell"
@@ -548,7 +548,7 @@ dependencies = [
 
 [[package]]
 name = "pulldown-cmark-app"
-version = "0.1.0"
+version = "0.0.0"
 dependencies = [
  "pulldown-cmark",
 ]
