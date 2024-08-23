@@ -1,6 +1,6 @@
 [package]
 name = "pulldown-cmark-app"
-edition = "2021"
+edition.workspace = true
 
 [[bin]]
 name = "pulldown-cmark-app"
