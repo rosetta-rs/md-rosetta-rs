@@ -386,6 +386,19 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1aab8fc367588b89dcee83ab0fd66b72b50b72fa1904d7095045ace2b0c81c35"
 
 [[package]]
+name = "jotdown"
+version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5afa77b05ee2811a1c1f4d6b7dce44b65bad966c81072e55ea604d084ad4162b"
+
+[[package]]
+name = "jotdown-app"
+version = "0.0.0"
+dependencies = [
+ "jotdown",
+]
+
+[[package]]
 name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

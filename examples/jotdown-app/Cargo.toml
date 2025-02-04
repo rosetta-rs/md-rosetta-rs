@@ -1,0 +1,10 @@
+[package]
+name = "jotdown-app"
+edition.workspace = true
+
+[[bin]]
+name = "jotdown-app"
+path = "app.rs"
+
+[dependencies]
+jotdown = "0.7.0"
