@@ -385,9 +385,9 @@ checksum = "1aab8fc367588b89dcee83ab0fd66b72b50b72fa1904d7095045ace2b0c81c35"
 
 [[package]]
 name = "jotdown"
-version = "0.7.0"
+version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5afa77b05ee2811a1c1f4d6b7dce44b65bad966c81072e55ea604d084ad4162b"
+checksum = "c519aad5c5d1057c0c5e71370c6c61ec997af47597d66c4bd7c3dbd5543aef65"
 
 [[package]]
 name = "jotdown-app"
