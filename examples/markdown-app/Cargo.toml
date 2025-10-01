@@ -7,4 +7,4 @@ name = "markdown-app"
 path = "app.rs"
 
 [dependencies]
-markdown = "1.0.0-alpha.17"
+markdown = "1.0.0"
