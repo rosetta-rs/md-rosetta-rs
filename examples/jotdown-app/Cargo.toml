@@ -7,4 +7,4 @@ name = "jotdown-app"
 path = "app.rs"
 
 [dependencies]
-jotdown = "0.8.0"
+jotdown = "0.8.1"
