@@ -25,7 +25,7 @@ fn render(
     raw: &str,
 ) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let arena = comrak::Arena::new();
-    let root = comrak::parse_document(&arena, raw, &comrak::ComrakOptions::default());
+    let root = comrak::parse_document(&arena, raw, &comrak::Options::default());
 
     iter_nodes(root, &mut move |node| {
         let _ = writeln!(writer, "{:?}", node.data.borrow().value);
