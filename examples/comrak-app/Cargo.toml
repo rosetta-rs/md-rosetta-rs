@@ -7,4 +7,4 @@ name = "comrak-app"
 path = "app.rs"
 
 [dependencies]
-comrak = "0.47"
+comrak = "0.48"
