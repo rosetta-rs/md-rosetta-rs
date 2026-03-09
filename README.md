@@ -18,14 +18,14 @@ Suggestions:
 
 Name | Overhead (release) | Build (debug) | Parse (release) | Downloads | Version
 -----|--------------------|---------------|-----------------|-----------|--------
-null | 0 KiB | 216ms | 2ms | - | -
-comrak | 583 KiB | 17s | 5ms | ![Download count](https://img.shields.io/crates/dr/comrak) | v0.32.0
-jotdown | 209 KiB | 1s | 4ms | ![Download count](https://img.shields.io/crates/dr/jotdown) | v0.7.0
-markdown | 985 KiB | 1s | 10ms | ![Download count](https://img.shields.io/crates/dr/markdown) | v1.0.0-alpha.21
-minimad | 26 KiB | 569ms | 3ms | ![Download count](https://img.shields.io/crates/dr/minimad) | v0.13.1
-pulldown-cmark | 445 KiB | 2s | 3ms | ![Download count](https://img.shields.io/crates/dr/pulldown-cmark) | v0.12.2
+null | 0 KiB | 193ms | 1ms | - | -
+comrak | 2,767 KiB | 14s | 2ms | ![Download count](https://img.shields.io/crates/dr/comrak) | v0.50.0
+jotdown | 222 KiB | 1s | 2ms | ![Download count](https://img.shields.io/crates/dr/jotdown) | v0.9.1
+markdown | 1,026 KiB | 1s | 11ms | ![Download count](https://img.shields.io/crates/dr/markdown) | v1.0.0
+minimad | 29 KiB | 544ms | 2ms | ![Download count](https://img.shields.io/crates/dr/minimad) | v0.14.0
+pulldown-cmark | 440 KiB | 2s | 2ms | ![Download count](https://img.shields.io/crates/dr/pulldown-cmark) | v0.13.1
 
-*System: Linux 5.4.0-170-generic (x86_64), rustc 1.84.0 (9fc6b4312 2025-01-07) w/ `-j 8`*
+*System: Linux 6.17.9-76061709-generic (x86_64), rustc 1.94.0 (4a4ef493e 2026-03-02) w/ `-j 8`*
 
 Notes:
 - Overhead will be lower if your application shares dependencies with your argument parsing library.
